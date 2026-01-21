@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">News application</string>
+    <string name="base_url">https://newsdata.io/api/1/</string>
+</resources>
