@@ -1,0 +1,68 @@
+############################
+# Android / Gradle
+############################
+.gradle/
+build/
+*/build/
+
+############################
+# Local config (IMPORTANT)
+############################
+local.properties
+
+############################
+# Android Studio / IntelliJ
+############################
+.idea/
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Generated files
+############################
+captures/
+.externalNativeBuild/
+.cxx/
+
+############################
+# Logs
+############################
+*.log
+
+############################
+# Kotlin
+############################
+.kotlin/
+
+############################
+# Keystore (SECURITY)
+############################
+*.jks
+*.keystore
+
+############################
+# APK / AAB
+############################
+*.apk
+*.aab
+
+############################
+# Firebase / Google
+############################
+google-services.json
+
+############################
+# Secrets / Constants (YOUR CASE)
+############################
+app/src/main/java/com/example/newsapplication/Constant.kt

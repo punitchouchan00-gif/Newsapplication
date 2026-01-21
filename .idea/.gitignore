@@ -1,0 +1,73 @@
+# =========================
+# Android Studio / IntelliJ
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+/out/
+.shelf/
+workspace.xml
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+**/build/
+
+# =========================
+# Local config
+# =========================
+local.properties
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Keystore files (VERY IMPORTANT)
+# =========================
+*.jks
+*.keystore
+*.pem
+
+# =========================
+# API keys / Secrets
+# =========================
+**/Constant.kt
+**/Constants.kt
+**/ApiKeys.kt
+**/Secrets.kt
+
+# =========================
+# Firebase
+# =========================
+google-services.json
+firebase.json
+
+# =========================
+# Kotlin / Java caches
+# =========================
+.kotlin/
+captures/
+
+# =========================
+# Emulator / Device
+# =========================
+.externalNativeBuild/
+.cxx/
+
+# =========================
+# Test / coverage
+# =========================
+coverage/
+
+app/src/main/java/com/example/newsapplication/Constant.kt
