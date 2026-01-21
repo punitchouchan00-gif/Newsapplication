@@ -32,6 +32,7 @@ import com.example.newsapplication.Data.Dto.Results
 import com.example.newsapplication.Util.Result
 import com.example.newsapplication.presentation.NewsViewModel
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
     navController: NavController,
